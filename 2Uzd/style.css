@@ -1,0 +1,34 @@
+.isorinis-fexas {
+    display:flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: gray;
+    justify-content: space-around;
+}
+
+.blokeliai {
+    padding: 10px;
+    width: 33.3%;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.paveiksliukas > img {
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+
+.mygtukas {
+    border: 1px solid black;
+}
+
+.mygtukas > a {
+    display: block;
+    text-align: center;
+    padding: 0.25em;
+    text-decoration: none;
+}

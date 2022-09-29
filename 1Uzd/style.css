@@ -1,0 +1,58 @@
+.antraste {
+    display: flex;
+    height: 100px;
+    width: 100;
+    background-color: rgb(40, 39, 39);
+    text-align: center;
+    padding-top: 40;
+    align-items: center;
+    justify-content: center;
+}
+
+.isorinis-flexas {
+    height: 350px;
+    width: 100%;
+    margin: 3px;
+}
+
+.mygtukas {
+    border: 1xp solid black;
+    height: 20px;
+    width: 20%;
+    background-color: gray;
+    border: 3px solid black;
+}
+
+.mygtukas > a {
+    display: block;
+    text-align: center;
+    padding: 0.25em;
+    text-decoration: none;
+}
+
+.pastraipa1 {
+    display: inline-block;
+    height: 150px;
+    width: 79%;
+    background-color: gray;
+    border-bottom: 3px solid black;
+}
+
+.pastraipa2 {
+    display: inline-block;
+    height: 150px;
+    width: 20%;
+    background-color: white;
+    border-bottom: 3px  solid  black;
+}
+
+.mygtuku-dezute{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.antrastes-tekstas{
+    color: white;
+}
