@@ -46,6 +46,12 @@
 }
 
 .menesio-dienu-dezute {
-    display: block;
-    margin: 8px;
+    display: flex;
+    height: 700px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.savaites-dezute {
+    display: flex;
 }
