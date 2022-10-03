@@ -46,8 +46,6 @@
 }
 
 .menesio-dienu-dezute {
-    display: flex;
-    height: 700px;
-    width: 100%;
-    flex-direction: row;
+    display: block;
+    margin: 8px;
 }
