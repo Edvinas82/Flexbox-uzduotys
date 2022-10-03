@@ -1,4 +1,6 @@
 .isorinis-flexas {
+    display: flex;
+    flex-direction: column;
     height: 120px;
     width: 100;
     margin: 5px 25px 6px 8px;
@@ -17,18 +19,26 @@
 }
 
 .pilki-langeliai {
+    display: flex;
+    flex-direction: row;
     background-color: rgb(63, 62, 62);
 }
 
 .zali-langeliai {
+    display: flex;
+    flex-direction: row;
     background-color: rgb(68, 142, 68);
 }
 
 .balti-langeliai {
+    display: flex;
+    flex-direction: row;
     background-color: white;
 }
 
 .tekstas {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     text-size-adjust: 7.33px;
 }

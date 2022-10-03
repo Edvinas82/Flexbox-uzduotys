@@ -1,5 +1,6 @@
 .isorinis-flexas {
     display: flex;
+    flex-direction: column;
     gap: 10px;
     padding: 10px;
     background-color: white;
@@ -7,31 +8,46 @@
 }
 
 .antraste {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
 }
 
 .savaites-dienos {
+    display: flex;
     height: 18px;
     width: 13.43%;
-    justify-content: space-between;
-    display: inline-block;
+    flex-direction: row;
+    display: flex;
     text-align: center;
     background-color: gray;
 }
 
 .tusti-langeliai  {
+    display: flex;
     height: 100px;
     width: 13.43%;
-    justify-content: space-between;
-    display: inline-block;
+    flex-direction: row;
     background-color: white;
 }
 
 .menesio-dienos {
     height: 100px;
     width: 13.43%;
-    justify-content: space-between;
-    display: inline-block;
-    background-color: rgb(173, 171, 171);
+    flex-direction: row;
+    display: flex;
     text-align: right;
+    background-color: rgb(173, 171, 171);    
+}
+
+.savaites-dienu-dezute {
+    display: flex;
+    flex-direction: row;
+}
+
+.menesio-dienu-dezute {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    flex-direction: row;
 }
